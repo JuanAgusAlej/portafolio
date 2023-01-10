@@ -5,12 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white !important;
-  
-    background: #292E49 !important;
-    background: -moz-linear-gradient(top, #292E49 0%, #165681 100%, #292E49 100%) !important;
-    background: -webkit-linear-gradient(top, #292E49 0%, #165681 100%, #292E49 100%) !important;
-    background: linear-gradient(to bottom, #292E49 0%, #165681 100%, #292E49 100%) !important;
+  color: black;
+  background-color: #e3f2fd;
   }
 
 code {
