@@ -1,11 +1,12 @@
 import React from 'react';
 import imgFondo from '../../../../assets/ImagenPortafolio.png';
+import './style.css';
 
 const Card = ({ proyect }) => {
   return (
-    <div className="col">
-      <div className="card shadow-sm" style={{ color: 'white' }}>
-        <img src={imgFondo} className="card-img" alt="..." />
+    <div className="col ">
+      <div className="card shadow-sm cardStyle">
+        <img src={imgFondo} className="card-img cardStyle" alt="..." />
         <div className="card-img-overlay text-center d-flex flex-column">
           <h2 className="card-title">{proyect.title}</h2>
           <div className="card-body d-flex flex-column justify-content-around">
