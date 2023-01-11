@@ -1,6 +1,4 @@
 import React from 'react';
-import gitHub from '../../assets/GitHub.png';
-import linkedin from '../../assets/Linkedin.png';
 
 const Footer = () => {
   return (
