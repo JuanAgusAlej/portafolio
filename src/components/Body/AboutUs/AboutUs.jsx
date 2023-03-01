@@ -7,23 +7,19 @@ const AboutUs = () => {
   return (
     <>
       <div id="inicio" className="py-4 py-md-4"></div>
-      <div className='bg-dark pt-4 aboutUs'>
+      <div className="bg-dark pt-4 aboutUs">
         <section className="text-center container ">
           <div className="row pt-lg-5 ">
             <div className="col-lg-10 col-md-8 mx-auto">
               <h1 className="fw-light">Alejandro, Juan Agustin</h1>
               <p className="fs-6 lead ">
-                Egresado del Coding Bootcamp Fullstack Developer, pero antes
-                estudié Lic. Criminalística siempre me gustó investigar,
-                analizar y resolver problemas. Mientras avanzaba en la carrera
-                no me emocionaba de la misma manera cuando curse Lógica de
-                Programación, buscar una solución del problema que no tiene una
-                sola respuesta y trabajar con distintas personas; empecé a
-                estudiar de manera autodidacta por udemy, youtube o buscando
-                información. La decisión de anotarme en el Coding Bootcamp vino
-                para realizar un avance a nivel de profesional tanto del stack
-                tecnológico como en habilidades blandas, ya que se utilizaba la
-                metodología Scrum a lo largo de todo el curso.
+                Soy un apasionado de la programación y de resolver problemas
+                complejos con soluciones innovadoras. Me he formado como
+                Fullstack Developer a través de un Coding Bootcamp y he
+                trabajado en proyectos utilizando la metodología Scrum con
+                excelentes resultados. Me encanta aprender y mejorar
+                continuamente mis habilidades para seguir creciendo como
+                profesional en el mundo de la tecnología.
               </p>
               <p className="d-flex justify-content-center pt-3 ">
                 <a

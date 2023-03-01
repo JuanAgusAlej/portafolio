@@ -4,19 +4,22 @@
 			"title": "Contact Form",
 			"description": "Agenda de contacto realizada con React.Js y conectado a FireBase Authentication y Cloud",
 			"repository": "https://github.com/JuanAgusAlej/contact-form",
-			"page": "https://challenge-form.vercel.app"
+			"page": "https://challenge-form.vercel.app",
+			"diseble": true
 		},
 		{
 			"title": "DrinkHub",
 			"description": "Red social para crear recetas, la misma está hecha con HTML, JavaScript, Bootstrap",
 			"repository": "https://github.com/JuanAgusAlej/DrinkHub/tree/DevOps",
-			"page": "https://drinkhub.netlify.app "
+			"page": "https://drinkhub.netlify.app ",
+			"diseble": false
 		},
 		{
 			"title": "Estafa Mlibre",
 			"description": "Es un proyecto Clone de mercado libre realizado con la api de búsqueda del mismo. Para practicar React junto con test unitario ",
 			"repository": "https://github.com/JuanAgusAlej/estafa-mlibre",
-			"page": "https://estafa-mlibre.vercel.app/"
+			"page": "https://estafa-mlibre.vercel.app/",
+			"diseble": false
 		}		
 	]
 }

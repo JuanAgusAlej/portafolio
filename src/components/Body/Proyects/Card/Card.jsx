@@ -15,15 +15,19 @@ const Card = ({ proyect }) => {
               <a
                 className="btn btn-sm btn-outline-light"
                 target="_blank"
-                href={proyect.repository} rel="noreferrer">
+                href={proyect.repository}
+                rel="noreferrer">
                 GitHub
               </a>
-              <a
-                className="btn btn-sm btn-outline-light"
-                target="_blank"
-                href={proyect.page} rel="noreferrer">
-                Pages
-              </a>
+              {!proyect.diseble && (
+                <a
+                  className="btn btn-sm btn-outline-light"
+                  target="_blank"
+                  href={proyect.page}
+                  rel="noreferrer">
+                  Pages
+                </a>
+              )}
             </div>
           </div>
         </div>
