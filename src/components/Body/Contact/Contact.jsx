@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import './style.css';
 import emailjs from 'emailjs-com';
-import FormSend from './FormSend/FormSend.jsx';
 import { BtnSubmit } from './BtnSubmit/BtnSubmit.jsx';
 // eslint-disable-next-line import/no-unresolved
 import ok from '../../../assets/ok.png';
@@ -18,11 +17,10 @@ const Contact = () => {
   const [isSend, setIsSend] = useState({ msg: '', send: false, img: '' });
 
   const onSubmit = (data) => {
-    console.log(data);
     setIsSend({ msg: '', send: true });
 
     emailjs
-      .send('service_1i611ca', 'template_bowdqbd', data, 'dTit5uXi5H4peb-VJ')
+      .send('service_1i611ca', 'template_bowdqbd', data, process.env.REACT_APP_EMAIL_JS_KEY)
       .then(
         (response) => {
           console.log('SUCCESS!', response.status, response.text);
@@ -109,7 +107,7 @@ const Contact = () => {
                         message: 'Maximo 500 caracteres',
                       },
                       minLength: {
-                        value: 50,
+                        value: 15,
                         message: 'Minimo 50 caracteres',
                       },
                     })}
