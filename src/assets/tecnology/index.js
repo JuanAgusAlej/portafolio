@@ -1,0 +1,14 @@
+export { default as ReactNative } from './ReactNative.png';
+export { default as bootstrap } from './bootstrap.png';
+export { default as css } from './css.png';
+export { default as git } from './git.png';
+export { default as hibernet } from './hibernet.png';
+export { default as html } from './html.png';
+export { default as java } from './java.png';
+export { default as javaScript } from './javaScript.png';
+export { default as mongo } from './mongo.png';
+export { default as node } from './node.png';
+export { default as react } from './react.png';
+export { default as spring } from './spring.png';
+export { default as sql } from './sql.png';
+export { default as typscript } from './typscript.png';

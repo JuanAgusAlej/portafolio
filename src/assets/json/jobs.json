@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "title": "React Native Developer",
+            "empresa": "GlobalNews Group",
+            "fecha":{
+                "inicio": "Abr-2023",
+                "fin": "Actualidad"	
+            },
+            "tareas": [
+            "Armado de la arquitectura del proyecto",
+            "Desarrollo de aplicaciones móviles multiplataforma con React Native.",
+            "Diseño de interfaces de usuario receptivas y atractivas.",
+            "Integración de API para obtener y enviar datos.",
+            "Depuración y pruebas exhaustivas.",
+            "Optimización del rendimiento de la aplicación.",
+            "Mantenimiento y actualización continua.",
+            "Colaboración efectiva en equipos interdisciplinarios."
+            ]
+        },
+        {
+            "title": "Tutor",
+            "empresa": "RollingCode",
+            "fecha":{
+                "inicio": "Feb-2023",
+                "fin": "Dic-2023"	
+            },
+            "tareas": [
+            "Participar en el dictado de Clases de la escuela",
+            "Resolver dudas del contenido visto",
+            "Resolver problemas del contenido visto"
+            ]
+        },
+        {
+            "title": "Quality Assurance Analyst",
+            "empresa": "IUTRACE",
+            "fecha":{
+                "inicio": "Feb-2022",
+                "fin": "Abr-2023"	
+            },
+            "tareas": [
+            "Redacción de informes sobre bugs ",
+            "Desarrollo y ejecución de la solución de errores frecuentes",
+            "Control de la calidad del producto "
+            ]
+        },
+        {
+            "title": "Technical Support Help Desk",
+            "empresa": " Cencosud S.A.",
+            "fecha":{
+                "inicio": "Jul-2021",
+                "fin": "Feb-2022"	
+            },
+            "tareas": [
+            "Realizar diagnósticos de fallas en software y hardware.",
+            "Resolución de tickets.",
+            "Monitorear el funcionamiento del sistemas y componentes."
+            ]
+        }
+    ]
+}
