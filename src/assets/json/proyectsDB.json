@@ -15,7 +15,7 @@
 			"diseble": false
 		},
 		{
-			"title": "Estafa Mlibre",
+			"title": "E-Commer",
 			"description": "Es un proyecto Clone de mercado libre realizado con la api de búsqueda del mismo. Para practicar React junto con test unitario ",
 			"repository": "https://github.com/JuanAgusAlej/estafa-mlibre",
 			"page": "https://estafa-mlibre.vercel.app/",
