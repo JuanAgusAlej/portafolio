@@ -30,7 +30,7 @@ const Header = () => {
           <p>Portafolio</p>
         </a>
         <button
-          className='navbar-toggler'
+          className='navbar-toggler bg-light border-light'
           type='button'
           data-bs-toggle='collapse'
           data-bs-target='#navbarSupportedContent'
@@ -39,7 +39,7 @@ const Header = () => {
           aria-label='Toggle navigation'>
           <span className='navbar-toggler-icon'></span>
         </button>
-        <div className='collapse navbar-collapse ' id='navbarSupportedContent'>
+        <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav me-auto mb-2 mb-lg-0 text-end w-100 d-flex justify-content-end'>
             <li className='nav-item '>
               <a className='nav-link fs-5 text-light ' href='#info'>
