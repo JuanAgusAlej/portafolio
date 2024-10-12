@@ -19,6 +19,21 @@
             ]
         },
         {
+            "title": "Desarrollador Full Stack",
+            "empresa": "Startup - Magnetico",
+            "fecha": {
+                "inicio": "Jul-2024",
+                "fin": "Oct-2024"
+            },
+            "tareas": [
+                "Participé en el desarrollo de un sistema de gestión de pedidos utilizando Next.js y NestJS.",
+                "Implementé un flujo para controlar y asignar pedidos a diferentes empresas, permitiendo una asignación automática basada en la cotización creada por cada empresa.",
+                "Desarrollé la lógica que permitía a las empresas crear cotizaciones personalizadas por cada tecnología solicitada por el cliente.",
+                "Mejoré la eficiencia del proceso de cotización y asignación, optimizando el tiempo de respuesta entre la solicitud del cliente y la asignación de la empresa.",
+                "Contribuí a la integración de microservicios y a la escalabilidad del sistema."
+            ]
+        },
+        {
             "title": "Tutor",
             "empresa": "RollingCode",
             "fecha":{
