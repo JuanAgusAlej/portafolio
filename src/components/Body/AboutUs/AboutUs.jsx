@@ -10,7 +10,7 @@ const AboutUs = () => {
         className='text-center container  justify-content-center'
         id='conteniner'>
         <div className='col-lg-10 col-md-8 mx-auto'>
-          <h1 className='fw-light'>Alejandro, Juan Agustin</h1>
+          <h1 className='fw-bold'>Alejandro, Juan Agustin</h1>
           <h2 className='m-5'>Software Developer</h2>
 
           <a type='button' className='btn btn-outline-light m-3' href='#info'>
