@@ -1,10 +1,34 @@
 {
 	"proyects": [
 		{
+			"title": "Rick And Mort",
+			"description": "Proyecto de practica de react native con la api de Rick and morty",
+			"repository": "https://github.com/JuanAgusAlej/RickAndMort-ReactNative",
+			"diseble": true
+		},
+		{
+			"title": "FastDelivery Front",
+			"description": "Proyecto de practica de envios de una app de envio de paquetes",
+			"repository": "https://github.com/JuanAgusAlej/uma-front",
+			"diseble": true
+		},
+		{
+			"title": "FastDelivery Api",
+			"description": "Api de la app de envio de paquetes",
+			"repository": "https://github.com/JuanAgusAlej/UMA-backend",
+			"diseble": true
+		},
+		{
+			"title": "Landing Page",
+			"description": "Pedido de una pagina para mi profesor de KungFu",
+			"repository": "https://github.com/JuanAgusAlej/KungFu",
+			"page": "https://kung-fu-xi.vercel.app/",
+			"diseble": false
+		},
+		{
 			"title": "Contact Form",
 			"description": "Agenda de contacto realizada con React.Js y conectado a FireBase Authentication y Cloud",
 			"repository": "https://github.com/JuanAgusAlej/contact-form",
-			"page": "https://challenge-form.vercel.app",
 			"diseble": true
 		},
 		{

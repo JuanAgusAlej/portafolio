@@ -67,6 +67,15 @@ const Header = () => {
                 Contacto
               </a>
             </li>
+            <li className='nav-item'>
+              <a
+                className='nav-link fs-5 text-light'
+                target='_blank'
+                href='https://drive.google.com/file/d/1dkCvVhvbHar0RZZNX0Qh7MvfFMiHENGU/view?usp=sharing'
+                rel='noreferrer'>
+                CV
+              </a>
+            </li>
           </ul>
         </div>
       </div>

@@ -12,3 +12,5 @@ export { default as react } from './react.png';
 export { default as spring } from './spring.png';
 export { default as sql } from './sql.png';
 export { default as typscript } from './typscript.png';
+export { default as next } from './nextjs.png';
+export { default as nest } from './nestjs.png';

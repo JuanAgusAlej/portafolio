@@ -37,11 +37,11 @@ const AboutUs = () => {
             </h6>
             <p className='card-text'>
               Soy un apasionado de la programación y de resolver problemas
-              complejos. Me he formado como Fullstack Developer a través de un
-              Coding Bootcamp y he trabajado en proyectos utilizando la
-              metodología Scrum con excelentes resultados. Me encanta aprender y
-              mejorar continuamente mis habilidades para seguir creciendo como
-              profesional en el mundo de la tecnología.
+              complejos con soluciones innovadoras. Me he formado como Fullstack
+              Developer a través de un RollingCode y he trabajado en proyectos
+              utilizando la metodología Scrum con excelentes resultados. Me
+              encanta aprender y mejorar continuamente mis habilidades para
+              seguir creciendo como profesional en el mundo de la tecnología.
             </p>
             <a
               href='https://www.linkedin.com/in/juanagusalej/'

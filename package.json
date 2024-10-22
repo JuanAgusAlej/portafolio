@@ -9,6 +9,7 @@
     "bootstrap": "^5.2.3",
     "emailjs-com": "^3.2.0",
     "eslint-config-airbnb": "^19.0.4",
+    "my-portfolio": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.41.5",

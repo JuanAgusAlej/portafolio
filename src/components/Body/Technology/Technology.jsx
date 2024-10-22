@@ -9,6 +9,8 @@ import {
   java,
   javaScript,
   mongo,
+  nest,
+  next,
   node,
   react,
   spring,
@@ -36,6 +38,8 @@ export const Technology = () => {
           <img src={spring} className='col-lg-1 col-3 mt-3 ' />
           <img src={mongo} className='col-lg-1 col-3 mt-3 ' />
           <img src={sql} className='col-lg-1 col-3 mt-3 ' />
+          <img src={nest} className='col-lg-1 col-3 mt-3 ' />
+          <img src={next} className='col-lg-1 col-3 mt-3 ' />
         </div>
       </div>
     </div>
