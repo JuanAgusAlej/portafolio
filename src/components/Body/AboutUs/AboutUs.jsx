@@ -36,12 +36,16 @@ const AboutUs = () => {
               <b>Software Developer</b>
             </h6>
             <p className='card-text'>
-              Soy un apasionado de la programación y de resolver problemas
-              complejos con soluciones innovadoras. Me he formado como Fullstack
-              Developer a través de un RollingCode y he trabajado en proyectos
-              utilizando la metodología Scrum con excelentes resultados. Me
-              encanta aprender y mejorar continuamente mis habilidades para
-              seguir creciendo como profesional en el mundo de la tecnología.
+              Soy un desarrollador Full Stack con más de 3 años de experiencia
+              en IT y 2 años en desarrollo de software. Mi principal fortaleza
+              es la creación de aplicaciones web y móviles usando tecnologías
+              como React, React Native, Node.js y bases de datos SQL/NoSQL. Mi
+              experiencia trabajando en entornos ágiles me ha permitido
+              participar en proyectos colaborativos, desde el diseño de
+              interfaces de usuario hasta la implementación de microservicios
+              escalables. Siempre busco aprender y mejorar mis habilidades, con
+              el objetivo de seguir contribuyendo de manera significativa al
+              éxito de cada proyecto en el que participo.
             </p>
             <a
               href='https://www.linkedin.com/in/juanagusalej/'
