@@ -1,11 +1,29 @@
 {
     "content": [
         {
+            "title": "Ssr React Native Developer",
+            "empresa": "ItRocks",
+            "fecha":{
+                "inicio": "Dic-2024",
+                "fin": "Actualidad"	
+            },
+            "tareas": [
+            "Armado de la arquitectura del proyecto",
+            "Desarrollo de aplicaciones móviles multiplataforma con React Native.",
+            "Diseño de interfaces de usuario receptivas y atractivas.",
+            "Integración de API para obtener y enviar datos.",
+            "Depuración y pruebas exhaustivas.",
+            "Optimización del rendimiento de la aplicación.",
+            "Mantenimiento y actualización continua.",
+            "Colaboración efectiva en equipos interdisciplinarios."
+            ]
+        },
+        {
             "title": "React Native Developer",
             "empresa": "GlobalNews Group",
             "fecha":{
                 "inicio": "Abr-2023",
-                "fin": "Actualidad"	
+                "fin": "Mar - 2025"	
             },
             "tareas": [
             "Armado de la arquitectura del proyecto",

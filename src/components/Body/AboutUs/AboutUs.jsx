@@ -36,9 +36,8 @@ const AboutUs = () => {
               <b>Software Developer</b>
             </h6>
             <p className='card-text'>
-              Soy un desarrollador Full Stack con más de 3 años de experiencia
-              en IT y 2 años en desarrollo de software. Mi principal fortaleza
-              es la creación de aplicaciones web y móviles usando tecnologías
+              Soy un desarrollador Full Stack con más de 3 años de experiencia.
+              Mi principal fortaleza es la creación de aplicaciones web y móviles usando tecnologías
               como React, React Native, Node.js y bases de datos SQL/NoSQL. Mi
               experiencia trabajando en entornos ágiles me ha permitido
               participar en proyectos colaborativos, desde el diseño de

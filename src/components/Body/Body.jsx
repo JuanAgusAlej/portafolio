@@ -9,9 +9,9 @@ const Body = () => {
   return (
     <>
       <AboutUs />
-      <Technology />
-      <Proyects />
       <Experiencia />
+      <Proyects />
+      <Technology />
       <Contact />
     </>
   );
