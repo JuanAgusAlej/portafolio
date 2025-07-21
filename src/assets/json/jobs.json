@@ -1,39 +1,35 @@
 {
     "content": [
         {
-            "title": "Ssr React Native Developer",
+            "title": "React Native Developer",
             "empresa": "ItRocks",
-            "fecha":{
-                "inicio": "Dic-2024",
-                "fin": "Actualidad"	
+            "fecha": {
+                "inicio": "Dic 2024",
+                "fin": "Actualidad"
             },
             "tareas": [
-            "Armado de la arquitectura del proyecto",
-            "Desarrollo de aplicaciones móviles multiplataforma con React Native.",
-            "Diseño de interfaces de usuario receptivas y atractivas.",
-            "Integración de API para obtener y enviar datos.",
-            "Depuración y pruebas exhaustivas.",
-            "Optimización del rendimiento de la aplicación.",
-            "Mantenimiento y actualización continua.",
-            "Colaboración efectiva en equipos interdisciplinarios."
+                "Diseño y armado de la arquitectura base del proyecto en React Native",
+                "Desarrollo de funcionalidades clave para la app principal de la empresa",
+                "Resolución de bugs críticos y mejora continua del rendimiento",
+                "Mantenimiento preventivo y evolutivo de la aplicación.",
+                "Desarrollo de soluciones integradas con el backend (Node.js) según los requerimientos del negocio.",
+                "Coordinación técnica con otros equipos y liderazgo en decisiones de producto."
             ]
         },
         {
             "title": "React Native Developer",
-            "empresa": "GlobalNews Group",
-            "fecha":{
-                "inicio": "Abr-2023",
-                "fin": "Mar - 2025"	
+            "empresa": "GlobalNews",
+            "fecha": {
+                "inicio": "Abril 2023",
+                "fin": "Marzo 2025"
             },
             "tareas": [
-            "Armado de la arquitectura del proyecto",
-            "Desarrollo de aplicaciones móviles multiplataforma con React Native.",
-            "Diseño de interfaces de usuario receptivas y atractivas.",
-            "Integración de API para obtener y enviar datos.",
-            "Depuración y pruebas exhaustivas.",
-            "Optimización del rendimiento de la aplicación.",
-            "Mantenimiento y actualización continua.",
-            "Colaboración efectiva en equipos interdisciplinarios."
+                "Participación en el armado inicial de la arquitectura mobile.",
+                "Desarrollo de vistas y componentes reutilizables en React Native.",
+                "Corrección de errores reportados por QA y usuarios finales.",
+                "Implementación de mejoras UI/UX junto con el equipo de diseño.",
+                "Mantenimiento funcional de la app y actualización de librerías.",
+                "Aportar soluciones técnicas alineadas al modelo de negocio de medios digitales."
             ]
         },
         {
@@ -52,42 +48,21 @@
             ]
         },
         {
-            "title": "Tutor",
-            "empresa": "RollingCode",
-            "fecha":{
-                "inicio": "Feb-2023",
-                "fin": "Dic-2023"	
-            },
-            "tareas": [
-            "Participar en el dictado de Clases de la escuela",
-            "Resolver dudas del contenido visto",
-            "Resolver problemas del contenido visto"
-            ]
-        },
-        {
-            "title": "Quality Assurance Analyst",
+            "title": "Jr React Native Developer",
             "empresa": "IUTRACE",
-            "fecha":{
+            "fecha": {
                 "inicio": "Feb-2022",
-                "fin": "Abr-2023"	
+                "fin": "Abr-2023"
             },
             "tareas": [
-            "Redacción de informes sobre bugs ",
-            "Desarrollo y ejecución de la solución de errores frecuentes",
-            "Control de la calidad del producto "
-            ]
-        },
-        {
-            "title": "Technical Support Help Desk",
-            "empresa": " Cencosud S.A.",
-            "fecha":{
-                "inicio": "Jul-2021",
-                "fin": "Feb-2022"	
-            },
-            "tareas": [
-            "Realizar diagnósticos de fallas en software y hardware.",
-            "Resolución de tickets.",
-            "Monitorear el funcionamiento del sistemas y componentes."
+                "Comencé en el equipo mobile como developer Jr., participando en tareas de mantenimiento y corrección de bugs de la app principal.",
+                "Con el tiempo, tomé responsabilidades más técnicas: creación de componentes reutilizables, mejoras de rendimiento y adaptación de pantallas a distintos dispositivos.",
+                "Implementé flujos completos usando React Native y TypeScript, integrando servicios REST y GraphQL.",
+                "Trabajé en la migración de parte del código de JavaScript a TypeScript, mejorando la calidad del proyecto y reduciendo errores en producción.",
+                "Colaboré con el equipo de backend para definir contratos de APIs y manejar flujos de autenticación y notificaciones push.",
+                "Participé en sprints ágiles, aportando en refinamientos y proponiendo mejoras en UI/UX.",
+                "Contribuí a mejorar la documentación interna y procesos de testing automatizado usando herramientas como Jest y Detox.",
+                "Finalicé el último año como referente técnico dentro del equipo mobile (sin rol formal de liderazgo), aportando en la toma de decisiones técnicas y revisión de PRs."
             ]
         }
     ]

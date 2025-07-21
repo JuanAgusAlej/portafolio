@@ -4,7 +4,7 @@ import './style.css';
 
 const Card = ({ proyect }) => {
   return (
-    <div className="col ">
+    <div className="col">
       <div className="card shadow-sm cardStyle">
         <img src={imgFondo} className="card-img cardStyle" alt="..." />
         <div className="card-img-overlay text-center d-flex flex-column">
@@ -16,7 +16,8 @@ const Card = ({ proyect }) => {
                 className="btn btn-sm btn-outline-light"
                 target="_blank"
                 href={proyect.repository}
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 GitHub
               </a>
               {!proyect.diseble && (
@@ -24,7 +25,8 @@ const Card = ({ proyect }) => {
                   className="btn btn-sm btn-outline-light"
                   target="_blank"
                   href={proyect.page}
-                  rel="noreferrer">
+                  rel="noreferrer"
+                >
                   Pages
                 </a>
               )}

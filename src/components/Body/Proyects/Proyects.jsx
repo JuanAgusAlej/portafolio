@@ -5,16 +5,23 @@ import Card from './Card/Card.jsx';
 const Proyects = () => {
   return (
     <>
-      <br id='proyectos' />
-      <div className='py-5 proyectColor'>
-        <div className='album py-3'>
-          <div className='container'>
-            <h1 className='fw-light text-center mb-5'>Proyectos</h1>
-            <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
-              {proyectsDB?.proyects?.map((proyect, i) => (
-                <Card proyect={proyect} key={i} />
-              ))}
-            </div>
+      <br id="proyectos" />
+      <div className="proyectColor">
+        <div className="album pb-3">
+          <div className="container text-center">
+            <h2 className="mb-3">Proyectos</h2>
+            <p>
+              Los proyectos desarrollados pueden consultarse en el siguiente
+              enlace:
+              <a
+                href="https://github.com/JuanAgusAlej?tab=repositories"
+                target="blank"
+                className="mx-1"
+                rel="noopener noreferrer"
+              >
+                Ver proyectos en GitHub
+              </a>
+            </p>
           </div>
         </div>
       </div>
