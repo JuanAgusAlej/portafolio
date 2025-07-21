@@ -19,8 +19,10 @@ const AboutUs = () => {
           </a>
           <a
             type="button"
+            target="_blank"
+            rel="noreferrer"
             className="btn btn-outline-light m-3"
-            href="#contacto"
+            href="https://wa.me/541154630022"
           >
             Contacto
           </a>
