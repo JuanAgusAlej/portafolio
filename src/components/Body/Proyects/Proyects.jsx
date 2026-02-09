@@ -1,7 +1,3 @@
-import React from 'react';
-import proyectsDB from '../../../assets/json/proyectsDB.json';
-import Card from './Card/Card.jsx';
-
 const Proyects = () => {
   return (
     <>
