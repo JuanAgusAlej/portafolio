@@ -40,9 +40,15 @@ const AboutUs = () => {
               <b>Software Developer</b>
             </h6>
             <p className="card-text">
-           Desarrollador Mobile especializado en React Native, con experiencia en apps transaccionales y de contenidos para banca y medios. Lideré arquitecturas front-end escalables, integré backends en Node.js/NestJS y aceleré el time-to-market mediante componentes
-           reutilizables, buenas prácticas y CI/CD. Colaboro con producto, diseño y QA, tomando decisiones técnicas y de producto para entregar experiencias seguras y centradas en el usuario. Stack: React Native, React, Next.js, Node.js/NestJS, SQL y MongoDB; enfoque en
-           calidad, pruebas y mantenimiento continuo.
+              Desarrollador Mobile especializado en React Native, con
+              experiencia en apps transaccionales y de contenidos para banca y
+              medios. Lideré arquitecturas front-end escalables, integré
+              backends en Node.js/NestJS y aceleré el time-to-market mediante
+              componentes reutilizables, buenas prácticas y CI/CD. Colaboro con
+              producto, diseño y QA, tomando decisiones técnicas y de producto
+              para entregar experiencias seguras y centradas en el usuario.
+              Stack: React Native, React, Next.js, Node.js/NestJS, SQL y
+              MongoDB; enfoque en calidad, pruebas y mantenimiento continuo.
             </p>
             <a
               href="https://www.linkedin.com/in/juanagusalej/"
