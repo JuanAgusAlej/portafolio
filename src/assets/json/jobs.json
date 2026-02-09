@@ -1,19 +1,31 @@
 {
     "content": [
         {
+            "title": "SSR FrontEnd",
+            "empresa": "Banco Hipotecario",
+            "fecha": {
+                "inicio": "Sep 2025",
+                "fin": "Actualidad"
+            },
+            "tareas": [
+               "Contribuí al desarrollo y armado de la aplicación móvil principal del banco, que actualmente está en fase de implementación y crecimiento.",
+               "Desarrollé e implementé nuevas funcionalidades transaccionales y de autogestión.",
+               "Resolví bugs críticos y ejecuté un mantenimiento preventivo, mejorando continuamente el rendimiento y la estabilidad de la aplicación.",
+               "Coordiné técnicamente con otros equipos, liderando decisiones de producto y asegurando la alineación tecnológica global."
+            ]
+        },
+        {
             "title": "React Native Developer",
             "empresa": "ItRocks",
             "fecha": {
                 "inicio": "Dic 2024",
-                "fin": "Actualidad"
+                "fin": "Sep 2025"
             },
             "tareas": [
-                "Diseño y armado de la arquitectura base del proyecto en React Native",
-                "Desarrollo de funcionalidades clave para la app principal de la empresa",
-                "Resolución de bugs críticos y mejora continua del rendimiento",
-                "Mantenimiento preventivo y evolutivo de la aplicación.",
-                "Desarrollo de soluciones integradas con el backend (Node.js) según los requerimientos del negocio.",
-                "Coordinación técnica con otros equipos y liderazgo en decisiones de producto."
+                "Lideré el diseño e implementación de la arquitectura base del proyecto en React Native, asegurando escalabilidad y rendimiento óptimo.",
+                "Desarrollé funcionalidades clave para la app principal, integrando soluciones con el backend (Node.js) y cumpliendo los requerimientos de negocio.",
+                "Resolví bugs críticos y ejecuté un mantenimiento preventivo, mejorando continuamente el rendimiento y la estabilidad de la aplicación.",
+                "Coordiné técnicamente con otros equipos, liderando decisiones de producto y asegurando la alineación tecnológica global."
             ]
         },
         {
@@ -24,12 +36,9 @@
                 "fin": "Marzo 2025"
             },
             "tareas": [
-                "Participación en el armado inicial de la arquitectura mobile.",
-                "Desarrollo de vistas y componentes reutilizables en React Native.",
-                "Corrección de errores reportados por QA y usuarios finales.",
-                "Implementación de mejoras UI/UX junto con el equipo de diseño.",
-                "Mantenimiento funcional de la app y actualización de librerías.",
-                "Aportar soluciones técnicas alineadas al modelo de negocio de medios digitales."
+                "Contribuí al armado inicial de la arquitectura mobile y desarrollé vistas y componentes reutilizables, acelerando el time-to-market.",
+                "Corregí errores reportados por QA y usuarios finales, implementando mejoras UI/UX en colaboración con el equipo de diseño. ",
+                "Aporté soluciones técnicas alineadas al modelo de negocio de medios digitales, manteniendo la funcionalidad y actualizando librerías de la app."
             ]
         },
         {
@@ -67,3 +76,5 @@
         }
     ]
 }
+
+
