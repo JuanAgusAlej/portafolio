@@ -1,15 +1,47 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: black;
-  background-color: #e3f2fd;
-  }
+  padding: 0;
+  box-sizing: border-box;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary: #0f172a;
+  --secondary: #1e293b;
+  --accent: #00d9ff;
+  --accent-alt: #7c3aed;
+  --text: #f1f5f9;
+  --text-muted: #cbd5e1;
+  --success: #10b981;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family:
+    'Geist',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  background: var(--primary);
+  color: var(--text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: revealOnScroll 0.6s ease-out forwards;
+}
+
+@keyframes revealOnScroll {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

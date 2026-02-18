@@ -1,0 +1,188 @@
+footer {
+  padding: 3rem 2rem;
+  background: var(--secondary);
+  border-top: 1px solid rgba(0, 217, 255, 0.1);
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.social-links a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  color: var(--accent);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.social-links a:hover {
+  background: var(--accent);
+  color: var(--primary);
+  transform: translateY(-5px);
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 2rem;
+  background: var(--accent);
+  color: var(--primary);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.contact-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(0, 217, 255, 0.3);
+}
+
+.footer-text {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+  margin-top: 2rem;
+}
+
+/* CONTACT FORM */
+.contact-form-wrapper {
+  max-width: 500px;
+  margin: 2rem auto 0;
+  background: var(--primary);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 217, 255, 0.2);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.8rem;
+  background: var(--secondary);
+  border: 1px solid rgba(0, 217, 255, 0.2);
+  border-radius: 6px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(0, 217, 255, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-submit {
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-alt) 100%);
+  color: var(--primary);
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+  width: inherit;
+}
+
+.form-submit:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 217, 255, 0.3);
+}
+
+.form-submit:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.form-message {
+  padding: 1rem 0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.form-message.show {
+  display: block;
+}
+
+.form-message.success {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--success);
+  border: 1px solid var(--success);
+  width: inherit;
+}
+
+.form-message.error {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+  border: 1px solid #ef4444;
+  width: inherit;
+}
+
+.form-message.loading {
+  background: rgba(0, 217, 255, 0.1);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  width: inherit;
+}
+
+/* ANIMATIONS */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: revealOnScroll 0.6s ease-out forwards;
+}
+
+@keyframes revealOnScroll {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
