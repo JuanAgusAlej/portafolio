@@ -1,0 +1,39 @@
+.projects {
+  padding: 6rem 2rem;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 41, 59, 0.5) 0%,
+    rgba(15, 23, 42, 0.5) 100%
+  );
+}
+
+.projects-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects-content p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.projects-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-alt) 100%);
+  color: var(--primary);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.projects-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(0, 217, 255, 0.3);
+}

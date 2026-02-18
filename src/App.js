@@ -1,15 +1,21 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap';
-import Body from './components/Body/Body.jsx';
-import Footer from './components/Footer/Footer.jsx';
+import { About } from './components/About/About.jsx';
+import Contact from './components/Contact/Contact.jsx';
+import Experience from './components/Experience/Experience.jsx';
 import Header from './components/Header/Header.jsx';
+import Hero from './components/Hero/Hero.jsx';
+import { Projects } from './components/Projects/Projects.jsx';
+import { Skills } from './components/Skills/Skills.jsx';
 
 function App() {
   return (
     <>
       <Header />
-      <Body />
-      <Footer />
+      <Hero />
+      <About />
+      <Experience />
+      <Skills />
+      <Projects />
+      <Contact />
     </>
   );
 }
