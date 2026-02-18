@@ -57,7 +57,7 @@ const Contact = () => {
         <a
           href="https://www.linkedin.com/in/juanagusalej/"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
           title="LinkedIn"
         >
           in
@@ -65,8 +65,8 @@ const Contact = () => {
         <a
           href="https://wa.me/5491154630022"
           target="_blank"
-          rel="noopener noreferrer"
           title="WhatsApp"
+          rel="noreferrer"
         >
           💬
         </a>
