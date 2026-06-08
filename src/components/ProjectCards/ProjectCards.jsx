@@ -3,12 +3,8 @@ import { projectsData } from '../../data/projectsData'; // Asegurá la ruta de t
 
 const ProjectCards = () => {
   return (
-    <section className="py-16 bg-gray-950 text-white" id="proyectos">
+    <section className="py-16 text-white" id="proyectos">
       <div className="max-w-6xl mx-auto px-6">
-        {/* Título de la Sección */}
-        <h2 className="text-3xl font-bold text-center mb-12 text-white tracking-tight">
-          Mis <span className="text-orange-500">Proyectos</span>
-        </h2>
         
         {/* Grilla Contenedora: 1 columna en mobile, 2 en pantallas medianas/grandes */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
