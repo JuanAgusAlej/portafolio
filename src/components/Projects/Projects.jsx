@@ -1,11 +1,13 @@
 import React from 'react';
 import './style.css';
+import ProyectCard from '../ProjectCards/ProjectCards.jsx';
 
 export const Projects = () => {
   return (
     <section id="projects" className="projects">
       <div className="projects-content">
         <h2 className="section-title">Mis Proyectos</h2>
+        <ProyectCard />
         <p>
           Podés ver todos mis proyectos en GitHub, donde comparto código de
           aplicaciones móviles, web apps, y soluciones full-stack que he
