@@ -7,15 +7,7 @@ export const About = () => {
       <div>
         <h2>Sobre mí</h2>
         <p>
-          Soy un desarrollador mobile apasionado por crear experiencias de
-          usuario excepcionales. Con más de 3 años de experiencia en React
-          Native, he liderado arquitecturas escalables y trabajado con
-          tecnologías modernas en startups y empresas consolidadas.
-        </p>
-        <p>
-          Mi enfoque combina excelencia técnica, buenas prácticas de desarrollo
-          y una mentalidad colaborativa orientada a resolver problemas
-          complejos.
+         Soy un Software Engineer / Full Stack Developer apasionado por crear experiencias digitales excepcionales de punta a punta. Con una sólida trayectoria combinando el desarrollo mobile en React Native con backends robustos en Node.js, Java y .NET, he liderado arquitecturas escalables en el sector bancario y de medios digitales. Mi enfoque combina la excelencia técnica, la aplicación de patrones de diseño (SOLID, Arquitectura Hexagonal) y una mentalidad orientada a resolver problemas complejos de negocio.
         </p>
         <div className="skills-grid">
           <div className="skill-item">
@@ -24,7 +16,7 @@ export const About = () => {
           </div>
           <div className="skill-item">
             <h3>Backend</h3>
-            <p>Node.js, NestJS, Spring Boot</p>
+            <p>Node.js, NestJS, Java (Spring), .NET</p>
           </div>
           <div className="skill-item">
             <h3>Bases de Datos</h3>
@@ -51,8 +43,7 @@ export const About = () => {
             usuario
           </p>
           <p>
-            <strong>🔧 Stack:</strong> React Native • React • Next.js • Node.js
-            • TypeScript
+            <strong>🔧 Stack:</strong> React Native, React, Node.js, Java, .NET, TypeScript
           </p>
           <p>
             💡
