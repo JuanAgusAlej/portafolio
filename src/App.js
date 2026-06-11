@@ -10,6 +10,7 @@ import { Skills } from './components/Skills/Skills.jsx';
 function App() {
   return (
     <>
+      <Analytics />
       <Header />
       <Hero />
       <About />
@@ -17,7 +18,6 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
-      <Analytics />
     </>
   );
 }
