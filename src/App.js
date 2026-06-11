@@ -10,7 +10,7 @@ import { Skills } from './components/Skills/Skills.jsx';
 function App() {
   return (
     <>
-      <Analytics />
+      {process.env.NODE_ENV === 'production' && <Analytics />}
       <Header />
       <Hero />
       <About />
